@@ -15,9 +15,6 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split, GridSearchCV
 import matplotlib.pyplot as plt 
 from sklearn.naive_bayes import GaussianNB, MultinomialNB, ComplementNB, BernoulliNB
-import seaborn as sns
-sns.set(style="white") #white background style for seaborn plots
-sns.set(style="whitegrid", color_codes=True)
  
 st.title("Restaurant : analyse des commentaires")
   
